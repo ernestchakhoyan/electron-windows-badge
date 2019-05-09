@@ -1,0 +1,15 @@
+{
+  "name": "@ernestchakhoyan/electron-windows-badge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ernest Chakhoyan",
+  "license": "MIT",
+  "dependencies": {},
+  "repository": "https://github.com/ernestchakhoyan/electron-windows-badge",
+  "keywords": [
+    "electron js",
+    "electron windows",
+    "badge count",
+    "js"
+  ]
+}
