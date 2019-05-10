@@ -40,5 +40,5 @@ module.exports = function drawBadge(totalBadgeCount, badgeStyle) {
     }
 
     const badge = (totalBadgeCount) ? canvas.toDataURL() : null;
-    return totalBadgeCount && ipcRenderer.send("draw-windows-badge", badge);
+    return totalBadgeCount >= 0 && ipcRenderer.send("draw-windows-badge", badge);
 };
